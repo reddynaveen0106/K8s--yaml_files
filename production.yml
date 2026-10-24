@@ -5,7 +5,7 @@ metadata:
   name: nginx-production              # Deployment name
   namespace: production                # Namespace must already exist
   labels:
-    app: nginx                         # Standard application label
+    app: nginx                         # Standard application labelk8
 
 spec:
   replicas: 3                         # Run 3 Pod replicas
@@ -81,4 +81,4 @@ spec:
             allowPrivilegeEscalation: false
             capabilities:
               drop:
-                - ALL                 # Remove Linux capabilities
+                - ALL                 # Remove Linux capabilitie
